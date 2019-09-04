@@ -6,6 +6,8 @@ class Lexer():
         self.lexer = LexerGenerator()
 
     def _add_tokens(self):
+        ''' Definitions for all possible tokens '''
+
         # Print statement
         self.lexer.add('PRINT', r'print')
 
@@ -24,6 +26,12 @@ class Lexer():
 
         # TODO:
         # Unary Operators
+
+        # TODO:
+        # Conditional Statements
+
+        # TODO:
+        # Loop Statements
 
         # Number
         self.lexer.add('NUMBER', r'\d+')

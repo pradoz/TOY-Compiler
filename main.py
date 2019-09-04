@@ -1,7 +1,7 @@
 from lexer import Lexer
 
 text_input = """
-print(4 + 4 - 2)
+print(6 - 10 +    2);
 """
 
 lexer = Lexer().create()
